@@ -1,0 +1,36 @@
+#CSS_RESET 1.1 - Intro to CSS resets
+#CSS_RESET 1.2 - What are they?
+#CSS_RESET 1.3 - How can I use them
+#CSS_RESET 1.4 - Lets update our template
+#CSS_RESET 1.5 - Outro to CSS resets
+
+
+
+#VIDEO_TEMPLATE 1.1 - Intro to
+Hey Chris from Codify Academy here, in this video I want to explore what CSS resets are and how to use them in your projects.
+
+
+
+#CSS_RESET 1.2 - What are they?
+First, What are they? a CSS reset is some CSS code we include to make our webpages look the same across all browsers
+You might not know this, but browsers have default values for HTML elements, if we look in w3schools we can see some of those default values. So we what we're doing is overriding some of those defaults with this reset.
+
+#CSS_RESET 1.3 - How can I use them
+Ok so how do we do this? we googled CSS resets, and there are plenty of them to choose from, I'll just pick this one, normalize bc I'm familiar with it.
+Then I'll select download and then I can see they gave us a bunch of CSS code.
+
+
+
+#CSS_RESET 1.4 - Lets update our template
+We will use that code to update our template, so first I will go to GitHub, to my template folder - remember mine is called template2 yours should be template. Then we need to delete our current template inside of Codify because we deleted its connection to GitHub.
+
+Then in your terminal change directory to the codify folder.
+and clone your repo. and lets open our codify folder in Atom,
+
+we are going to be adding someone else's code in, similar to font awesome, so we need a link and a new file. Call it reset.css and update the file path. make sure it is inside of the css folder.
+
+I'll add some quick comments, bc we are lacking here.
+
+
+#VIDEO_TEMPLATE 1.5 - Outro to
+Well that's it for now,
