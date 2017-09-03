@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- character set -->
+    <meta charset="utf-8">
+    <!-- title -->
+    <title></title>
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div id="addHere"></div>
+
+    <script>
+      // create a new element
+      var newEl = document.createElement("button");
+
+      // random function to run when a button is clicked
+      function buttonFunction() {
+        console.log("this button function ran!");
+      };
+
+      // here we should get <button></button> because we created a new element
+      console.log(newEl);
+
+      // add content so you can click it
+      newEl.textContent = "Click Me";
+
+      // here we should get <button>Click Me</button> because we added text to the element
+      console.log(newEl);
+
+      // The button should be appended to the body tag.
+      document.getElementById("addHere").appendChild(newEl)
+
+      // add the event to the button on the screen, when its clicked the console should say "this button function ran!"
+      newEl.addEventListener('click', buttonFunction, false);
+
+    </script>
+  </body>
+</html>
